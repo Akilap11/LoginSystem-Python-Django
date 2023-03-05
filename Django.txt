@@ -1,0 +1,16 @@
+first thing when we deploy a django project,
+django search for the settings.py
+
+then checks for the urls.py in the PROJECT
+
+in the urls.py, we mention the url of the APP
+
+then django checks urls.py in the APP. 
+according to this urls.py, it will run the functions
+
+functions are in views.py in the APP
+
+models are in model.py
+
+to tell the path of the template folder(html files folder),
+open settings.py and search for templates and add the path to DIRS
